@@ -4,8 +4,8 @@
 /frontend/node_modules/
 
 
-# production
-/frontend/build
+# production-- during production uncomment below
+#/frontend/build
 
 # misc
 /backend/config/config.env
