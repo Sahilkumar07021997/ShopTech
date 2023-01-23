@@ -2,7 +2,7 @@
 
 > Complete E-commerce project  built with: Node.js, React, Redux, ExpressJs, MongoDB and Bootstrap classes
 > fully functional e-commerce website that can create users, admin and handling payments using stripe and handling mails with mailtrap
-> mail me: sahilkumardhiman07@gmail.com
+> mail me: sahilkumardhiman07@gmail.com new
 >linkedin: https://www.linkedin.com/in/sahil-kumar-aa868218b/
 
 ### Env Variables
