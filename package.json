@@ -1,0 +1,32 @@
+{
+  "name": "shoptech",
+  "version": "1.0.0",
+  "description": "ecommerce project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
+    "seeder": "node backend/utils/seeder.js",
+    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Sahil kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.1",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "rc-slider": "^10.0.1",
+    "react-bootstrap": "^2.7.0",
+    "stripe": "^11.6.0",
+    "validator": "^13.7.0"
+  }
+}
