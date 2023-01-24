@@ -4,7 +4,7 @@
 /frontend/node_modules/
 
 
-# production-- during production uncomment below
+# production-- during production uncomment below to ignore
 #/frontend/build
 
 # misc
