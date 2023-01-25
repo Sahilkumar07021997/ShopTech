@@ -15,6 +15,7 @@ process.on('uncaughtException', err => {
 //setting up config file using when not in PRODUCTION-environment
 if (process.env.NODE_ENV !== 'PRODUCTION') {
     require('dotenv').config({ path: 'backend/config/config.env' });
+    console.log("u r in production mode dude! just go to localhost:4000");
 }
 
 else {
