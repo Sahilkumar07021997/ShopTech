@@ -19,9 +19,7 @@ const Header = () => {
     navigate("/");
   };
 
-  // const handleClickComingSoon = () => {
-  //   navigate("/comingsoon");
-  // };
+
     const logoutHandler =  () => {
       dispatch(logout())
       alert("Logged out successfully!")
