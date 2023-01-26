@@ -4,8 +4,8 @@
 /frontend/node_modules/
 
 
-# production-- during production uncomment below to ignore
-#/frontend/build
+# production
+/frontend/build
 
 # misc
 /backend/config/config.env
