@@ -1,5 +1,5 @@
 [build]
-  functions = "backend/functions"
+  functions = "backend"
   command = ""
   publish = "frontend/build"
 
