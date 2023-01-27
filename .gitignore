@@ -5,7 +5,7 @@
 
 
 # production
-/frontend/build
+#/frontend/build
 
 # misc
 /backend/config/config.env
