@@ -1,6 +1,5 @@
 [build]
   functions = "backend"
-  command = "npm run build"
   publish = "frontend/build"
 
 [[redirects]]
