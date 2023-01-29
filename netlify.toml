@@ -9,7 +9,7 @@
   status = 200
 
 [[headers]]
-  for = "/*"
+  for = "/functions/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
