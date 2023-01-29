@@ -10,7 +10,7 @@ const connect = require('mongoose');
 
 //setting dotenv file
 
-dotenv.config({ path: 'backend/config/config.env' });
+dotenv.config({ path: 'config/config.env' });
 
 connectDatabase();  //execute the function and forming connection
 
