@@ -1,0 +1,25 @@
+[build]
+  command = ""
+  functions = "backend"
+  publish = "frontend/build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "POST, GET, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
+
+[context.production.environment]
+  REACT_APP_FUNCTION_URL = "https://<your-site-name>.netlify.app/.netlify/functions"
+  NODE_ENV = "production"
