@@ -1,0 +1,6 @@
+version: 2
+env: {}
+routes:
+  - src: /*
+    dest: https://shoptech-service.onrender.com
+    type: proxy
